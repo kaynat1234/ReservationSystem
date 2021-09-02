@@ -49,5 +49,8 @@ $uname=$_SESSION['login_user'];
       </tbody>
     </table>
      <?php mysqli_close($connector); ?>
+     <center>
+     <button><a href="member.php"> Back</button>
+     <center>
     </body>
     </html>
