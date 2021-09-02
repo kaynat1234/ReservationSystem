@@ -35,7 +35,7 @@ $uname=$_SESSION['login_user'];
   
    
 <label>Username</label> <input type="text" name='user' value=<?php echo $uname?> /><br>  <br>
-Reservation date:  <input type="date" id="checkin" name='res' class="gui-input" required="" placeholder="mm/dd/yyyy" ><br><br>
+Availability:  <input type="date" id="checkin" name='res' class="gui-input" required="" placeholder="mm/dd/yyyy" ><br><br>
       <span class="field-icon"><i class="fa fa-calendar"></i></span>
        
       
